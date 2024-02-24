@@ -1,0 +1,9 @@
+name: SSMPItems
+version: '${project.version}'
+main: ksndq.ssmpitems.SSMPItems
+api-version: '1.20'
+
+commands:
+  givesmpitem:
+    description: "Gives the player an SSMP item"
+    permission: ssmpitems.command.givesmpitem
